@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:drawableLeft="@drawable/qq13"
+            android:text="QQ"
+            android:textSize="40sp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:hint="@string/qq"
+            android:layout_height="wrap_content"
+            android:id="@+id/rootname"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:hint="@string/loginps"
+            android:layout_height="wrap_content"
+            android:id="@+id/rootpassword"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:text="@string/loginaction"
+            android:id="@+id/logonbtn"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:text="@string/cancleaction"
+            android:id="@+id/canclebtn"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

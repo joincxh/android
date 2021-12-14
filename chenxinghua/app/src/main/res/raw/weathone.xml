@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <infos>
+        <city id="sh">
+            <temp>20℃/30℃</temp>
+            <weath>晴转多云</weath>
+            <cname>上海</cname>
+            <pm>80</pm>
+            <wind>1级</wind>
+        </city>
+        <city id="bj">
+            <temp>26℃/32℃</temp>
+            <weath>晴</weath>
+            <cname>北京</cname>
+            <pm>98</pm>
+            <wind>3级</wind>
+        </city>
+        <city id="gz">
+            <temp>15℃/24℃</temp>
+            <weath>多云</weath>
+            <cname>广州</cname>
+            <pm>30</pm>
+            <wind>5级</wind>
+        </city>
+    </infos>
+

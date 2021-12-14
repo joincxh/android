@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appname">chenxinghua</string>
+    <string name="btn1name">First</string>
+    <string name="btn2name">Second</string>
+    <string name="btn3name">Third</string>
+    <string name="btn4name">Fourth</string>
+    <string name="btn5name">Fifth</string>
+    <string name="btn6name">Sixth</string>
+    <string name="qq">QQ number</string>
+    <string name="loginps">Login password</string>
+    <string name="loginaction">Login</string>
+    <string name="cancleaction">Cancel</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appname">陈兴华</string>
+    <string name="btn1name">第一个</string>
+    <string name="btn2name">第二个</string>
+    <string name="btn3name">第三个</string>
+    <string name="btn4name">第四个</string>
+    <string name="btn5name">第五个</string>
+    <string name="btn6name">第六个</string>
+    <string name="qq">QQ号码</string>
+    <string name="loginps">登陆密码</string>
+    <string name="loginaction">登陆</string>
+    <string name="cancleaction">取消</string>
+</resources>

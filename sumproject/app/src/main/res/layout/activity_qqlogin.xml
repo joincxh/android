@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:drawableLeft="@drawable/qq13"
+            android:text="QQ"
+            android:textSize="40sp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:hint="QQ号码/手机号/邮箱"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:textSize="30sp"
+            android:hint="登陆密码"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:text="登陆"
+            android:id="@+id/logonbtn"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="跳转注册"
+            android:textSize="20dp"
+            android:id="@+id/returnto"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:text="忘记密码？"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:layout_alignParentRight="true"
+                android:text="新用户注册"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="登录即代表阅读并同意阅读条款"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
