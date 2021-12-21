@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LoginExample</string>
+    <string name="ex1">登录成功</string>
+    <string name="ex2">用户名和密码不匹配</string>
+    <string name="ex3">请输入用户名或密码</string>
+    <string name="ex4">注册成功</string>
+    <string name="ex5">验证码错误，注册失败</string>
+    <string name="ex6">请完善全部信息</string>
+    <string name="login">登录</string>
+    <string name="username">账号：</string>
+    <string name="user">手机号/邮箱/用户名</string>
+    <string name="password">密码：</string>
+    <string name="pwd">登录密码</string>
+    <string name="lo">登录</string>
+    <string name="regi">还没有账号？去注册...</string>
+    <string name="welcome">欢迎登录成功本app</string>
+    <string name="register">注册账号</string>
+    <string name="us">账号：</string>
+    <string name="etus">请输入用户名</string>
+    <string name="ps">密码：</string>
+    <string name="etps">请输入密码</string>
+    <string name="ps2">密码：</string>
+    <string name="etps2">请再次输入密码</string>
+    <string name="code">验证码：</string>
+    <string name="code4">请输入4位验证码</string>
+    <string name="btnre">注册</string>
+    <string name="primit">注册即代表同意《用户协议》</string>
+</resources>
